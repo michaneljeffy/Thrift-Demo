@@ -1,0 +1,6 @@
+D:\MVC Project\Thrift\Thrift.Server\bin\Debug\Thrift.Server.exe.config
+D:\MVC Project\Thrift\Thrift.Server\bin\Debug\Thrift.Server.exe
+D:\MVC Project\Thrift\Thrift.Server\bin\Debug\Thrift.Server.pdb
+D:\MVC Project\Thrift\Thrift.Server\obj\Debug\Thrift.Server.csprojResolveAssemblyReference.cache
+D:\MVC Project\Thrift\Thrift.Server\obj\Debug\Thrift.Server.exe
+D:\MVC Project\Thrift\Thrift.Server\obj\Debug\Thrift.Server.pdb

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thrift.Server", "Thrift.Server\Thrift.Server.csproj", "{A761F5AC-B524-4C3D-88DA-30051CFAABF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Thrift.Client", "Thrift.Client\Thrift.Client.csproj", "{47636408-1C68-4A33-B02D-B90E65597D2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThriftJS.client", "ThriftJS.client\ThriftJS.client.csproj", "{6BEDDD02-41FE-49E0-924D-A72FAF8FD975}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A761F5AC-B524-4C3D-88DA-30051CFAABF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A761F5AC-B524-4C3D-88DA-30051CFAABF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A761F5AC-B524-4C3D-88DA-30051CFAABF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A761F5AC-B524-4C3D-88DA-30051CFAABF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47636408-1C68-4A33-B02D-B90E65597D2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47636408-1C68-4A33-B02D-B90E65597D2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47636408-1C68-4A33-B02D-B90E65597D2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47636408-1C68-4A33-B02D-B90E65597D2E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BEDDD02-41FE-49E0-924D-A72FAF8FD975}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BEDDD02-41FE-49E0-924D-A72FAF8FD975}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BEDDD02-41FE-49E0-924D-A72FAF8FD975}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BEDDD02-41FE-49E0-924D-A72FAF8FD975}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

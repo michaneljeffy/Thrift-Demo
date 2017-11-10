@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Thrift JS客户端</title>
+    <script type="text/javascript" src="/Scripts/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="/js/demo_types.js"></script>
+    <script type="text/javascript" src="/js/MathService.js"></script>
+    <script type="text/javascript" src="/js/thrift.js"></script>
+	<meta charset="utf-8" />
+    <script>
+        $(document).ready(function ()
+        {
+            var debugPosation = 0;
+            try
+            {
+                var transport = new Thrift.Transport("http://localhost:9095");
+                var protocol = new Thrift.Protocol(transport);
+                var client = new MathServiceClient(protocol);
+                    
+                var add = client.add(10,20);
+                var sub = client.sub(10, 20);
+                var mul = client.mul(10, 20);
+                var div = client.div(10, 20);
+                var mod = client.mod(10, 20);
+                alert(add & " " & sub &" " &mul &" " & div &" " & mod)
+            }
+            catch (e)
+            {
+                alert("出错鸟：" + e.message);
+            }
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>

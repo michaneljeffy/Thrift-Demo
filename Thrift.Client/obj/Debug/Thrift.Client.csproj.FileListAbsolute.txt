@@ -1,0 +1,5 @@
+D:\MVC Project\Thrift\Thrift.Client\bin\Debug\Thrift.Client.exe.config
+D:\MVC Project\Thrift\Thrift.Client\bin\Debug\Thrift.Client.exe
+D:\MVC Project\Thrift\Thrift.Client\bin\Debug\Thrift.Client.pdb
+D:\MVC Project\Thrift\Thrift.Client\obj\Debug\Thrift.Client.exe
+D:\MVC Project\Thrift\Thrift.Client\obj\Debug\Thrift.Client.pdb
